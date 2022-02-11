@@ -1,0 +1,4 @@
+/home/Alexis/3Année/B-CPP-501-PAR-5-1-rtype-quentin.daville/_build/CMakeFiles/rebuild_cache.dir
+/home/Alexis/3Année/B-CPP-501-PAR-5-1-rtype-quentin.daville/_build/CMakeFiles/edit_cache.dir
+/home/Alexis/3Année/B-CPP-501-PAR-5-1-rtype-quentin.daville/_build/CMakeFiles/r-type_client.dir
+/home/Alexis/3Année/B-CPP-501-PAR-5-1-rtype-quentin.daville/_build/CMakeFiles/r-type_server.dir

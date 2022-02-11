@@ -1,0 +1,29 @@
+### Between Server manager and client network ###
+
+- TCP Connection
+
+CONNECTION = 100 - Client first Connection
+    |-> CONNECTION_ACCEPTED = 101 - Server accepted first connection
+    |-> CONNECTION_REFUSED = 102 - Server refused first connection
+
+CREATE_SERVER = 110 - Client requested a server creation from the server manager
+    |-> SERVER_CREATED = 111 - Server manager created a server
+        |-> DATA - Port of the new server
+    |-> SERVER_CREATION_FAILED = 113 - Server Manager was unable to create a new Server
+
+INVALID_REQUEST = 200 - Server Manager received an invalid request
+
+
+### Between Game Server and Game Network ###
+
+- UDP
+- Broadcast server
+
+PLAYER_ID = 10 - Data sent contain the player id
+PLAYER_POSITION = 11 Data sent contain player position;
+BULLET_PLAYER = 12 Data sent contain player's bullet information;
+PLAYER_DEATH = 13 Data sent contain information about lifestate of the player;
+ENEMY_POSITION = 20 Data sent contain enemy position;
+BULLET_ENEMY = 21 Data sent contain enemy's bullet information;
+LAUNCH_GAME = 30 - Ask to the server to launch the game;
+END_GAME = 40 - Ask to the server to end the game;
